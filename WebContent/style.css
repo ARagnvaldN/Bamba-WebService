@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+* { font-size: 12px; font-family: Calibri }
+
+input { border: 1px solid #ccc }
+
+a#currentTab {
+	float:left;
+    border-bottom:1px solid #fff;
+}
+
+a#loginTab {
+	float:right;
+	border-bottom:1px solid #fff;
+	
+}
+
+a { color: black; text-decoration:none;
+    padding:5px; border: 1px solid #aaa;
+}
+
+a:hover { background: #ccc }
+
+td { border: 0px solid #ccc; padding: 3px overflow:hidden; display:inline-block
+	width: 30px white-space:nowrap;}
+
+th { border: 1px solid #ccc; padding: 3px; 
+    background: #0099FF; color: white }
+
+.navigator { border-bottom:1px solid #aaa; width:600px; padding:5px; text-align:center}
